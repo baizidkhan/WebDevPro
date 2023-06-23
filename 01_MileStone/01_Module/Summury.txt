@@ -1,0 +1,183 @@
+                    
+                    ## HTML, CSS and gitHub As a Begineer ##
+
+
+=>What is HTML?
+• HTML is a language for describing web pages.
+• HTML stands for Hyper Text Markup Language
+• HTML is not a programming language, it is a markup language
+• A markup language is a set of markup tags
+• HTML uses markup tags to describe web pages
+
+
+
+
+##  5 types of tag: simple, attribute, image, empty, container
+==> Understanding structure of your html file
+==> Paragraph (<p></p>)
+==> Bold (<b></b>)
+==> Strong (<strong></strong>)
+==> Bold VS Strong
+==> Italic (<i></i>)
+
+
+
+==> 6 types of heading: h6> h5> h4> h3> h2> h1
+--> Anchor tag: <a></a>, tag attribute: href
+--> Displaying images from 3 locations: online, local, folder.
+--> Empty tag
+--> List tag: <li></li>
+--> Ordered: <ol></ol>
+--> Unordered: <ul></ul>
+
+
+___________________________________________________________________________________                    
+
+** Learn and Explore HTML ::
+
+// Summary - 01 :
+=> p tag        == paragraph
+=> b tag        == bold
+=> strong tag   == bold/ semantic
+=> i tag        == italic
+=> em tag       == emphasis compared to surrounding text/ italic
+=> small tag    == make test smaller
+=> h1, h2...h6  == Making Heading
+=> a href=""    == Making hyper-link using anchor tag == target="_blank"
+=> img src=""   == Insert an image // it also a inline element
+
+
+___________________________________________________________________________________    
+
+// Summary - 02 :
+=> Block-level Elements = A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+=> Inline Elements      = An inline element does not start on a new line.
+
+
+___________________________________________________________________________________    
+
+// Summary - 03 : HTML-List
+## List Item ->
+=> li       = Making list-Item
+=> ul       = Making Unordered-list/ Nasted-list
+=> ol       = Making Ordered-list  / Nasted-list
+
+
+
+HTML ordered list ::
+
+type attribute            Uses
+##  type="1"        -->     
+==> The list items will be numbered with numbers (default).
+    For example- 1,2,3,4....
+##  type="a"        -->
+==> The list items will be numbered with lowercase letters.
+==> For example- a,b,c,d.....
+##  type="A"        -->
+==> The list items will be numbered with uppercase letters.
+==> For example- A,B,C, D...
+##  type="i"        -->
+==> The list items will be numbered with lowercase roman numbers.
+==> For example- i,i,i, iv.... V, vi
+##  type="|"        -->
+==> The list items will be numbered with uppercase roman numbers.
+==> For example- I,11,III, IV...
+
+
+
+**  HTML Unordered list ::
+--> type = "disc/ circle/ square/ none"
+
+
+
+
+___________________________________________________________________________________    
+
+
+
+// Summary - 04 :
+<!-- Form Tag -->
+<h1>Form Tag ::</h1>
+<form>
+    <input type="text">
+    <input type="password">
+    <input type="number">
+    <input type="button">
+    <input type="checkbox">
+    <input type="date">
+    <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    
+<br><br><br><br>
+
+<select name="" id="">
+    <option value="Pizza">Pizza</option>
+    <option value="Alo Bhorta">Alo Bhorta</option>
+    <option value="Burger">Burger</option>
+    <option value="Kacci">Kacci</option>
+    <option value="Lacci">Lacci</option>
+</select>
+
+<button>Add Me</button>
+
+
+<h1>HTML Form ::</h1>
+<form>
+    <input type="text" placeholder="Your Name"><br>
+    <input type="email" name="" id="" placeholder="Your Email"><br>
+    <input type="password" name="" id="" placeholder="Your password"><br>
+    <input type="submit" value="submit">
+</form>
+
+
+
+___________________________________________________________________________________    
+
+
+
+// Summary - 05 : HTML Template
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+___________________________________________________________________________________    
+
+
+
+// Summary - 06 : HTML FAVicon / HTML Comments
+=> <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+=> HTML <!--...--> Tag  == HTML Comments
+
+
+___________________________________________________________________________________    
+
+
+
+HTML page structure :: 
+
+<!DOCTYPE html>                         <--- Tells version of HTML
+<html>                                  <--- HTML Root Element
+
+‹head>                                  <--- Used to contain page HTML metadata
+«title> Page Title‹ /title>             <--- • Title of HTML page
+</head>
+
+‹body>                                  <--- Hold content of HTML
+<h2>Heading Content</h2>                <=== HTML headling tag
+<p>Paragraph Content‹/p>                <--- HTML paragraph tag
+</body>
+</html>
+
+
+
+
