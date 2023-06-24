@@ -1,0 +1,37 @@
+
+########## CSS : Cascading Style Sheets ########## 
+
+##  CSS => Purpose make website colorful
+
+## CSS difference way to Style Types ::
+1. Inline Style
+2. Internal/ Embedded Style
+3. External Style
+
+
+_______________________________________________________________________________
+
+
+## Which i want to learn :
+=> CSS Units
+=> Class/ multiple vs id/ single
+=> CSS Selectors        = id/ class/ *
+=> universal selector   = *
+=> Mixed Selectors      = div, span, combined, tag, class, special
+=>  li.hot{
+            font-weight: 700;
+            font-size: 40px;
+        }
+=> /* p, h1{
+            color: rgb(14, 35, 226);
+        } */
+
+_______________________________________________________________________________
+
+## Internal/ Embedded Style : 
+tag_name/ identifier {
+    Style-rule : style-value;
+}
+
+
+
