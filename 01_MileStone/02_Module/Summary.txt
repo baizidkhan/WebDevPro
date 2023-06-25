@@ -26,6 +26,8 @@ _______________________________________________________________________________
             color: rgb(14, 35, 226);
         } */
 
+=> text-decoration: underline wavy black;        
+
 _______________________________________________________________________________
 
 ## Internal/ Embedded Style : 
@@ -35,3 +37,59 @@ tag_name/ identifier {
 
 
 
+
+_______________________________________________________________________________
+
+
+## Border ::
+.blog{
+            background-color: lightsalmon;
+            /* border-width: 4px;
+            border-style: solid;
+            border-color: rgb(6, 215, 62); */
+            border: 4px dotted seagreen;
+            border-radius: 24px 0px;
+            padding: 10px 30px;
+            margin: 30px auto;
+            width: 800px;
+            text-align: justify;
+        }
+
+
+
+
+_______________________________________________________________________________
+
+## Margin and Padding ::
+=> border-radius: 24px 0px;
+=> padding: 10px 30px;
+
+
+
+
+_______________________________________________________________________________
+
+
+*** CSS BOX Model ::
+==> Height + Weight
+==> Content - The content of the box, where text and images appear
+==> Padding - Clears an area around the content. The padding is transparent
+==> Border - A border that goes around the padding and content
+==> Margin - Clears an area outside the border. The margin is transparent
+
+
+
+_______________________________________________________________________________
+
+## CSS Priority
+
+
+_______________________________________________________________________________
+
+## CSS background-images ::
+
+background-image: url(../Image/Img_05.jpg);
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
