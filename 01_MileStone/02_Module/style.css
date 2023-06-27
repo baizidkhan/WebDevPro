@@ -15,7 +15,23 @@
     text-align: center;
     padding-top: 20px;
     color: rgb(0, 0, 0);
-    text-decoration: underline wavy black;
+    /* text-decoration: underline wavy black; */
+    /* text-decoration: line-through; */
+    text-decoration: overline;
+    
+}
+
+.list{
+    border: 2px dotted;
+    width: 500px;
+    margin: 30px auto;
+    padding: 15px;
+    text-align: center;
+    /* display: inline; */
+}
+
+ol li{
+    display: inline;
 }
 
 h2{

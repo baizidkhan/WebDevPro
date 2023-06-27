@@ -13,6 +13,18 @@ _______________________________________________________________________________
 
 
 ## Which i want to learn :
+1. CSS Units
+2. CSS Box-Model
+3. Margin, Padding, Border, Height, Weight
+4. Background image, repeat, position, size, relative image path
+5. Display none, inline, block, inline-block, attribute selector, decoration, shadow
+6. 
+
+
+_______________________________________________________________________________
+
+
+## Which i want to learn :
 => CSS Units
 => Class/ multiple vs id/ single
 => CSS Selectors        = id/ class/ *
