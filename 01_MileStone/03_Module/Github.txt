@@ -1,0 +1,15 @@
+
+## Module 3: Git, source control, GitHub ::
+
+==> Text Instruction [Important] : Module 3: Git, source control, GitHub
+3-1 Github Module Introduction
+3-2 Install git, create GitHub repository
+3-3 Introduction to Git init, git add, git commit
+3-4 Set origin, Git push, git pull, and repo overview
+3-5 Send small incremental changes to github
+3-6 Common github related issues faced by new developer
+[Disclaimer]; Advance Videos Ahead!
+3-7 [advanced] Create git branch, merge branches
+3-8 [advanced ] git pull, toggle branch, merge conflict
+
+Quiz 3
