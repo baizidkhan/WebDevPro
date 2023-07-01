@@ -27,3 +27,8 @@
 
 <label for="name">Your Name</label>
 <input id="name" type="text" placeholder="Your Name">
+
+
+
+
+### Explore about table
