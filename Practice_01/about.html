@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+label input{
+    padding: 5px;
+}
+
+.image{
+    margin: 50px;
+    
+}
+img{
+    width: 450px;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./index.html">Index</a>
+                    <ul class="dropdown">
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./index.html">Index</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1>This is my About Page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, aliquid odio! Eaque ut dolore distinctio incidunt, reiciendis autem blanditiis magni tenetur voluptate, perferendis reprehenderit adipisci harum beatae molestiae dicta ab. Molestias eligendi doloremque debitis facere sit velit fugit porro sequi, distinctio quisquam commodi enim! Consequatur, minima neque! Sint, fugiat eos?</p>
+
+    <form>
+        <label for="name">Name
+            <input type="text" name="name" id="name" placeholder="Your Name">
+        </label>
+        
+        <label for="contact">Contact
+            <input type="number" name="contact" id="contact" placeholder="Your Number">
+        </label>
+        <label for="email">Email
+            <input type="email" name="email" id="email" placeholder="Your Email">
+        </label>
+
+
+        <div class="image">
+            <img src="../Practice_01/Image/Img_04.jpg" alt="">
+            <img src="../Practice_01/Image/Img_05.jpg" alt="">
+            <img src="../Practice_01/Image/Img_06.jpg" alt="">
+        </div>
+
+
+
+        <fieldset>
+            <legend>Pick One</legend>
+            <label for="Oppo">
+                <input type="radio" name="mobile" id="Oppo">
+                Oppo
+            </label>
+            <label for="Xiomi">
+                <input type="radio" name="mobile" id="Xiomi">
+                Xiomi
+            </label>
+            <label for="Iphone">
+                <input type="radio" name="mobile" id="Iphone">
+                Iphone
+            </label>
+            <label for="Oneplus">
+                <input type="radio" name="mobile" id="Oneplus">
+                Oneplus
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select One or More feature</legend>
+            <label for="1gb">
+                <input type="checkbox" name="RAM" id="1gb">
+                1GB
+            </label>
+            <label for="2gb">
+                <input type="checkbox" name="RAM" id="2gb">
+                2Gb
+            </label>
+            <label for="3gb">
+                <input type="checkbox" name="RAM" id="3gb">
+                3Gb
+            </label>
+            <label for="4gb">
+                <input type="checkbox" name="RAM" id="3gb">
+                2Gb
+            </label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="5"></textarea>
+        </fieldset>
+
+        <input type="reset" value="Reset" style="margin: 5px 0; padding: 5px; font-size: 18px;">
+        <input type="submit" value="Submit" style="margin: 5px 0; padding: 5px; font-size: 18px;">
+        </fieldset>
+        
+    </form>
+</body>
+</html>

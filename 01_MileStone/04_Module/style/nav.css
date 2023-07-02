@@ -1,4 +1,4 @@
-nav ul{
+nav > ul{
     display: flex;
 }
 
@@ -16,4 +16,17 @@ nav li:hover{
 nav li a{
     text-decoration: none;
     color: black;
+}
+
+
+/* Nested Menu  */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding: 0;
+}
+
+nav li:hover .dropdown{
+    display: block;
 }
